@@ -1,0 +1,59 @@
+footer{
+    font: normal 15pt italic;
+    text-align: center;
+    margin-top:1.5em;
+}
+
+h1{
+    font: normal 30pt arial;
+    text-align: center;
+    margin-top:1em;
+}
+
+
+body{
+    background-color: #e4e4e4;
+}
+
+.container{
+    background-color: #fff;
+    width:40em;
+    height:30em;
+    margin:auto;
+    box-shadow: 5px 8px #8181816b;
+    border-radius: 2%;
+    overflow: auto;
+   
+}
+
+.circulo{
+    width:15em;
+    height:15em;
+    margin:auto;
+    border-radius: 100%;
+    margin-top: 1em;
+    background-image: url("homem.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.form_idade{
+    margin-left:1em;;
+    font: normal 13pt arial
+}
+.form_sexo{
+    margin-left:1em;;
+    font: normal 13pt arial
+}
+.enviar{
+    margin-left:1.5em;;
+}
+
+.titulo_resultado{
+  
+    text-align: center;
+    height: 2em;
+}

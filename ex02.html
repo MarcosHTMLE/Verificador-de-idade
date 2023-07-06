@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex02.css"/>
+    <title>Verificador</title>
+</head>
+<body>
+    <h1>Verificador de Idade</h1>
+    <section>
+        <div class="container">
+            <div class="form_idade">
+                <h4>Ano De Nascimento: <input type="number" name="ano"/></h4>
+            </div>
+            <div class="form_sexo">
+                <h4>Sexo: <input type="radio" name="sexo" id="masculino" checked><label for="masculino">Masculino</label><input type="radio" name="sexo" id="feminino"><label for="feminino">Feminino</label></h4>      
+            </div>
+            <div class="enviar">
+                <input type = "submit" onclick="enviar()"/>
+            </div>
+            <div class="titulo_resultado">
+                <h2 class="sexo_idade"></h2>
+            </div>
+            <div class="circulo">
+            </div>
+        </div>
+    </section>
+    <script src="ex02.js"></script>
+</body>
+<footer>
+    &copy;Marcos Santos
+</footer>
+</html>
